@@ -1,11 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-
+<style>
+  td, th {
+     padding: 5px;
+     border: 1px solid black;
+  }
+  table {
+  border: 1px solid black;
+ }
+</style>
 </head>
   <body>
-    <p>I colori usati sono: grey, yellow, blue</p>
-    
+    <p>I colori usati sono: grey, yellow, blue.<br/></p>
+    Tutte le celle hanno padding di 5px.<br/>
+    Applicare bordo di 1px solido
+    </p>
     <table>
        <tr>
          <th rowspan="2" style="background-color: grey;">N.</th>
@@ -17,7 +27,7 @@
          <th style="color: blue;">Italiano</th>
        </tr>
        <tr>
-         <td rowspan="3" style="background-color: grey;">1</th>
+         <th rowspan="3" style="background-color: grey;">1</th>
          <td><strong>Ryomen Sukuna</strong></td>
          <td>4 luglio 2018<sup style="color: blue;">[2]</sup></td>
          <td>31 ottobre 2019<sup style="color: blue;">[3]</sup></td>
