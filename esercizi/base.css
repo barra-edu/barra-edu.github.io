@@ -16,10 +16,12 @@ h1.titolo2 {color: AliceBlue;}
 .titolo.maiuscolo {color: #334455; text-transform: uppercase;}
 
 .titolo3 {color: red;}
-
 .maiuscolo3 {text-transform: uppercase;}
-
 .maiuscolo4 {color: #334455; text-transform: uppercase;}
+
+.maiuscolo5 {color: #334455; text-transform: uppercase;}
+.titolo5 {color: red;}
+
 
 /* # is for id attribute */
 #titolo3 {color: #6600ff;} /* viola */
