@@ -39,3 +39,18 @@ body > p {color: #ffbf00;}  /* orange */
 
 .titolo-green {color: green;}
 .titolo-blue {color: blue;}
+
+
+div.box {
+  height: 100px;
+  width: 500px;
+  background-color: powderblue;
+}
+
+p.font-style {
+  font-family: "Times New Roman", Times, serif;
+  font-style: normal; /* italic oblique */
+  font-weight: bold; /* normal 100-900,  400 is normal */
+  font-size: 14px; /* 1em 2.5em */
+  
+}
