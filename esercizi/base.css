@@ -19,6 +19,8 @@ h1.titolo2 {color: AliceBlue;}
 
 .maiuscolo3 {text-transform: uppercase;}
 
+.maiuscolo4 {color: #334455; text-transform: uppercase;}
+
 /* # is for id attribute */
 #titolo3 {color: #6600ff;} /* viola */
 
