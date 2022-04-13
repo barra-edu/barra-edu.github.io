@@ -35,7 +35,7 @@ div#container p {color: #ff0000;} /* red */
 /* all p directly below body */
 body > p {color: #ffbf00;}  /* orange */
 
-/* ex: p spam {color: red;} */
+/* ex: p span {color: red;} */
 
 .titolo-green {color: green;}
 .titolo-blue {color: blue;}
