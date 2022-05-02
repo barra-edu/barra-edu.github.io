@@ -10,6 +10,11 @@ table, th, td {
   border: 1px solid black;
   border-collapse: collapse; /* default: separate */
 }
+ 
+.grigio {
+  background-color: grey;
+} 
+ 
 </style> 
   
 </head>
@@ -18,8 +23,8 @@ table, th, td {
     <table>
       <!-- prima riga -->
       <tr>
-        <th rowspan="2">N.</th>
-        <td rowspan="2">Titolo</td>
+        <th class="grigio" rowspan="2">N.</th>
+        <td class="grigio" rowspan="2">Titolo</td>
         <th colspan="2">Data di prima pubblicazione</th>
         <!-- <td></td> -->
       </tr>
@@ -32,7 +37,7 @@ table, th, td {
       </tr>
       
       <tr>
-        <th rowspan="2">1</th>
+        <th class="grigio" rowspan="2">1</th>
         <th>Ryomen Sukuna</th>
         <td>4 luglio 2018<sup>[2]</sup></td>
         <td>31 ottobre 2019<sup>[3]</sup></td>
