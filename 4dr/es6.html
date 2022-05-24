@@ -1,32 +1,59 @@
 <!DOCTYPE html>
 <html>
 <head>
-<!-- https://russell-moro-bp.github.io/img/bacheca_85px.png -->
-
-<!-- https://russell-moro-bp.github.io/img/bollo_help_2.png -->
-  
 <style>
-  table {
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-</style>
+table {
+  border-top: 1px solid red;
+  border-bottom:1px solid red;
+  border-collapse: collapse; /* default: separate */
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+td {
+  font-size: 0.8em;  
+  color: grey;
+}  
+  
+ .font-titolo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+  }  
+  
+td.title {
+  /* font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5em;*/
+  color:red;
+  font-weight: 800;
+} 
+
+td.title_grey {
+  /* font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5em; */
+  color: grey;
+  font-weight: 100;
+} 
+  
+img {
+  width: 40px;
+  height: 40px;
+} 
+</style> 
 </head>
   <body>
-   <table>
-     <tr>
-       <td rowspan="2"></td>
-       <td>BACHECA</td>
-       <td>Bacheca online</td>
-       <td></td>
-     </tr>
-     <tr>
-       <!-- <td></td> -->
-       <td>Bacheca online</td>
-       <td>Visualizza i messaggi in bacheca</td>
-       <td>Aiuto</td>
-     </tr>
-   </table>
+    <table>
+         <tr>
+           <td rowspan="2" style="width: 50px"><img src="https://russell-moro-bp.github.io/img/bacheca_85px.png" /></td>
+           <td class="title font-titolo" style="width: 20%">BACHECA</td>
+           <td class="title_grey font-titolo">Bacheca online</td>
+           <td style="width: 50px;text-align: center;"><img src="https://russell-moro-bp.github.io/img/bollo_help_2.png" /></td>
+         </tr>
+         <tr>
+            <!-- -->
+            <td style="width: 20%">Consulta la bacheca</td>
+            <td>Visualizza i messaggi in bacheca</td>
+            <td style="text-align: center;">Aiuto</td>
+         </tr>
+    </table>
   </body>
 </html>
